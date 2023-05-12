@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    display: block;
+}
+
+#header-checkmark{
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 60px;
+}
+
+#list-checks{
+    width: 576px;
+}
+
+#clearAllButton:hover{
+    text-decoration: underline;
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+}
+
+#section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer span{
+    display: inline;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#clearAllButtonLabel{
+    display: flex;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.input-container input{
+    border: none;
+    width: 576px;
+    padding-left: 16px;
+}
+
+.input-container i{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+.changeToRed{
+    color: red;
+}
+
+.disabledLineThrough{
+    text-decoration: line-through;
+}
+
+.randomClass{
+    color: white;
+}
+
+@media (max-width:904px) {
+    #section2{
+        display: block;
+    }
+    #section2 br{
+        display: none;
+    }
+}
+
